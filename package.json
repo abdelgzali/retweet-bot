@@ -1,0 +1,17 @@
+{
+  "name": "twitter_bot",
+  "version": "1.0.0",
+  "description": "A script for aggregating tweets and posting them via Twitter API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abd El-Ghazali",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.5",
+    "flatfile": "^2.0.0",
+    "twit": "^2.2.11"
+  }
+}
